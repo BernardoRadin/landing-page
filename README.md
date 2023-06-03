@@ -1,2 +1,2 @@
 Landing Page para sistema de estoque feita com HTML,CSS e JQUERY <br>
-----> https://bernardoradin.github.io/landing-page/
+----> <a href='https://bernardoradin.github.io/landing-page/' target=_blank ></a>
