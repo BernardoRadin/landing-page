@@ -1,0 +1,83 @@
+.mensagem-contato{
+    margin-top: 60px;
+    width: auto;
+    height: auto;
+    background-color:rgb(255, 168, 61);
+    font-size: 21px;
+    color: rgb(171, 94, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 8px 0;
+}
+
+.form > form > input[type=text]{
+    height: 35px;
+    width: 98%;
+    margin-bottom: 10px;
+
+}
+
+.form > form > button{
+    margin-top: 10px;
+}
+
+.form > form > label{
+    color: rgb(230, 128, 2);
+}
+
+.form{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contato-telefone{
+    margin-top: 60px;
+    height: auto;
+    width: 300px;
+    float: right;
+}
+
+.contato-telefone > h2{
+    text-align: center;
+    color: rgb(230, 128, 2);
+}
+
+.contato1{
+    text-align: center;
+    padding: 8px 0;
+    margin: 30px auto;
+    height: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: rgb(230, 128, 2);
+    color: white;
+    font-size: 17px;
+}
+
+.contato2, .contato3{
+    text-align: center;
+    padding: 8px 0;
+    margin:  0 auto;
+    height: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: rgb(230, 128, 2);
+    color: white;
+    font-size: 17px
+}
+
+@media screen and (max-width: 1225px){
+    .contato-telefone{
+        margin: 40px auto;
+        float: none;
+        width: 95%;
+    }
+
+    .contato1,.contato2,.contato3{
+        width: 95%;
+    }
+
+    .form{
+        width: 100%
+    }
+}
